@@ -1,0 +1,185 @@
+Script started on 2024-12-26 16:50:04+00:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="151" LINES="33"]
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# cat [7mtypescript[27mtypescript
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# [H[2J]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# 
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# 
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# cat demofile 
+[?2004lhello gk this is demofile
+gk
+zk
+ak 
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# cut -c1-2 demofile 
+[?2004lhe
+gk
+zk
+ak
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# sed -n ''2'p'[C demofile 
+[?2004lgk
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# sed -n '2p' demofile [C[C[C[C[1P[1P[1@s[1@/[1@g[C[1@g[1@k[1@/[1@k[1@a[1@s[1@h[1@i[1@/
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# cat demofile 
+[?2004lhello gk this is demofile
+gk
+zk
+ak 
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# cat demofile [18@sed -n 's/gk/kashi/g'[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# sed -n 's/gk/kashi/g' demofile [18Pcat[C[C[C[C[C[C[C[C[C[C
+[?2004lhello gk this is demofile
+gk
+zk
+ak 
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# [7msed -n 's/gk/kashi/gp' demofile[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed -n 's/gk/kashi/gp' demofile
+[A
+[?2004lhello kashi this is demofile
+kashi
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# cta [K[K[Kat demofile 
+[?2004lhello gk this is demofile
+gk
+zk
+ak 
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# cat demofile sed -n 's/gk/kashi/gp' demofile[18Pcat demofile [18@sed -n 's/gk/kashi/g'[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# cat demofile 
+[?2004lhello gk this is demofile
+gk
+zk
+ak 
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# cat demofile [18@sed -n 's/gk/kashi/g'[C[C[C[C[C[C[C[C[C[C[1@p
+[?2004lhello kashi this is demofile
+kashi
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# sed -n 's/gk/kashi/gp' demofile [1P
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# cat demofile 
+[?2004lhello gk this is demofile
+gk
+zk
+ak 
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# ls -l
+[?2004ltotal 20
+-rw-r--r-- 1 root root  562 Dec 26 16:21 Jenkinsfile
+-rw-r--r-- 1 root root   36 Dec 26 16:44 demofile
+-rw-r--r-- 1 root root 2215 Dec 26 16:21 pom.xml
+-rw-r--r-- 1 root root  283 Dec 26 16:21 sonar-project.properties
+drwxr-xr-x 3 root root 4096 Dec 26 16:21 [0m[01;34msrc[0m
+-rw-r--r-- 1 root root    0 Dec 26 16:50 typescript
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# truncate -s 1[K50M demofile 
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# l[Ktruncate -s 50M demofile ls -l[K
+[?2004ltotal 20
+-rw-r--r-- 1 root root      562 Dec 26 16:21 Jenkinsfile
+-rw-r--r-- 1 root root 52428800 Dec 26 16:57 demofile
+-rw-r--r-- 1 root root     2215 Dec 26 16:21 pom.xml
+-rw-r--r-- 1 root root      283 Dec 26 16:21 sonar-project.properties
+drwxr-xr-x 3 root root     4096 Dec 26 16:21 [0m[01;34msrc[0m
+-rw-r--r-- 1 root root        0 Dec 26 16:50 typescript
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# rm -rf demofile 
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# ls -l
+[?2004ltotal 20
+-rw-r--r-- 1 root root  562 Dec 26 16:21 Jenkinsfile
+-rw-r--r-- 1 root root 2215 Dec 26 16:21 pom.xml
+-rw-r--r-- 1 root root  283 Dec 26 16:21 sonar-project.properties
+drwxr-xr-x 3 root root 4096 Dec 26 16:21 [0m[01;34msrc[0m
+-rw-r--r-- 1 root root 4096 Dec 26 16:57 typescript
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# ls [Kcpu
+[?2004lArchitecture:             x86_64
+  CPU op-mode(s):         32-bit, 64-bit
+  Address sizes:          46 bits physical, 48 bits virtual
+  Byte Order:             Little Endian
+CPU(s):                   1
+  On-line CPU(s) list:    0
+Vendor ID:                GenuineIntel
+  BIOS Vendor ID:         Intel
+  Model name:             Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz
+    BIOS Model name:        CPU @ 2.4GHz
+    BIOS CPU family:      1
+    CPU family:           6
+    Model:                63
+    Thread(s) per core:   1
+    Core(s) per socket:   1
+    Socket(s):            1
+    Stepping:             2
+    BogoMIPS:             4800.04
+    Flags:                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm con
+                          stant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt ts
+                          c_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault pti fsgsbase bmi1 avx2 smep bmi2 erms invpcid x
+                          saveopt
+Virtualization features:  
+  Hypervisor vendor:      Xen
+  Virtualization type:    full
+Caches (sum of all):      
+  L1d:                    32 KiB (1 instance)
+  L1i:                    32 KiB (1 instance)
+  L2:                     256 KiB (1 instance)
+  L3:                     30 MiB (1 instance)
+NUMA:                     
+  NUMA node(s):           1
+  NUMA node0 CPU(s):      0
+Vulnerabilities:          
+  Gather data sampling:   Not affected
+  Itlb multihit:          KVM: Mitigation: VMX unsupported
+  L1tf:                   Mitigation; PTE Inversion
+  Mds:                    Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+  Meltdown:               Mitigation; PTI
+  Mmio stale data:        Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+  Reg file data sampling: Not affected
+  Retbleed:               Not affected
+  Spec rstack overflow:   Not affected
+  Spec store bypass:      Vulnerable
+  Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:             Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline
+  Srbds:                  Not affected
+  Tsx async abort:        Not affected
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# 
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# 
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# [H[2J]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# gti branch
+[?2004lCommand 'gti' not found, did you mean:
+  command 'gtg' from snap getting-things-gnome (0.6)
+  command 'gtg' from deb gtg (0.6-5)
+  command 'gtf' from deb xserver-xorg-core (2:21.1.12-1ubuntu1.1)
+  command 'gmi' from deb lieer (1.6-2)
+  command 'git' from deb git (1:2.43.0-1ubuntu7.1)
+  command 'ti' from deb ticgit (1.0.2.17-2.1)
+  command 'bti' from deb bti (034-6)
+  command 'gth' from deb genomethreader (1.7.3+dfsg-8)
+  command 'gt' from deb genometools (1.6.5+ds-2)
+  command 'gt5' from deb gt5 (1.5.0~20111220+bzr29-4)
+  command 'gri' from deb gri (2.12.27-1.1)
+  command 'gsi' from deb gambc (4.9.3-1.2)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git branch
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git branch -a
+[?2004l[?1h=* [32mmain[m[m
+  [31mremotes/origin/HEAD[m -> origin/main[m
+  [31mremotes/origin/main[m[m
+[K[?1l>[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# [7mgit checkout -b new-branch-name[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit checkout -b new-branch-name
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KdemoBranch
+[?2004lSwitched to a new branch 'demoBranch'
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git checkout -b demoBranch[13Pbranch -a[K
+[?2004l[?1h=* [32mdemoBranch[m[m
+  main[m[m
+[K[?1l>[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# touch demofile
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# echo "[K''t'h'i's' 'i's' 'd'e'm'o'f'i'l'e'[C .[K>[K> demofile 
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# cat demofile 
+[?2004lthis is demofile
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git add .
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# go[Kii[Kt commit - [Km "[K''[K[1P'[C[K ""d"e"m"o"f"i"l"e" "a"d"d"e"d"[C
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@demo-ec2.(none)')
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# [7mgit config --global user.email "you@example.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.email "you@example.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P@"[1P@"[1P@"g@"s@"a@"g@"re@"9@"9@"[Cg","[1P"m"a"i"l".com"
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git config --global user.email "gsagre99@gmail.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[K[1P" "[Ckashi"[1P "kashi"[1P "kashi"[1P "kashi"[1P "kashi"[1P "kashi"n "kashi"a "kashi"m "kashi"e "kashi"
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git config --global user.name "kashi"email "gsagre99@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pmmit -m "demofile added"add .[Kcommit -m "demofile added"
+[?2004l[demoBranch 7ac8eb2] demofile added
+ 2 files changed, 146 insertions(+)
+ create mode 100644 demofile
+ create mode 100644 typescript
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# [7mgit config --global user.email "you@example.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pgit config --global user.email "you@example.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgit push orig
