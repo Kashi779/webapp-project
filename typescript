@@ -182,4 +182,116 @@ fatal: unable to auto-detect email address (got 'root@demo-ec2.(none)')
  2 files changed, 146 insertions(+)
  create mode 100644 demofile
  create mode 100644 typescript
-[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# [7mgit config --global user.email "you@example.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pgit config --global user.email "you@example.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgit push orig
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# [7mgit config --global user.email "you@example.com"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pgit config --global user.email "you@example.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgit push origin new-branch-name[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push origin new-branch-name
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdemofile [K[K[K[K[KB[K[K[K[K[K[7mdemoBranch[27mdemoBranch
+[?2004lUsername for 'https://github.com': Ka  kashi779
+Password for 'https://kashi779@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Kashi779/webapp-project.git/'
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git remote add [7mhttps://github.com/Kashi779/webapp-project.git/'[27mhttps://github.com/Kashi779/webapp-project.git/'[K
+[?2004lusage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git remote add https://github.com/Kashi779/webapp-project.git/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[36Ppush origin demoBranchremote add https://github.com/Kashi779/webapp-project.git/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mhttps://github.com/Kashi779/webapp-project.git[27mhttps://github.com/Kashi779/webapp-project.git
+[?2004lusage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git remote -v
+[?2004lorigin	https://github.com/Kashi779/webapp-project.git (fetch)
+origin	https://github.com/Kashi779/webapp-project.git (push)
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# [7mpush origin demoBranch[27mpush origin demoBranch
+[?2004lCommand 'push' not found, did you mean:
+  command 'pwsh' from snap powershell (7.4.6)
+  command 'rush' from deb rush (2.3-1)
+  command 'pdsh' from deb pdsh (2.34-2)
+  command 'posh' from deb posh (0.14.1)
+  command 'ppsh' from deb ppsh (1.10-3build2)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git add .
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# [7mgit commit -m "demofile added"[27mgit commit -m "demofile added"
+[?2004l[demoBranch 7e6a11b] demofile added
+ 1 file changed, 41 insertions(+), 1 deletion(-)
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# [7mpush origin demoBranch[27mpush origin demoBranch
+[?2004lCommand 'push' not found, did you mean:
+  command 'pwsh' from snap powershell (7.4.6)
+  command 'posh' from deb posh (0.14.1)
+  command 'rush' from deb rush (2.3-1)
+  command 'pdsh' from deb pdsh (2.34-2)
+  command 'ppsh' from deb ppsh (1.10-3build2)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# push origin demoBranch[1@g[1@i[1@t[1@ 
+[?2004lUsername for 'https://github.com': kashi779
+Password for 'https://kashi779@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Kashi779/webapp-project.git/'
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git push origin demoBranch
+[?2004lUsername for 'https://github.com': kashi779
+Password for 'https://kashi779@github.com': 
+Enumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 3.15 KiB | 3.15 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'demoBranch' on GitHub by visiting:[K
+remote:      https://github.com/Kashi779/webapp-project/pull/new/demoBranch[K
+remote: 
+To https://github.com/Kashi779/webapp-project.git
+ * [new branch]      demoBranch -> demoBranch
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git checkout [7mdemoBranch[27mdemoBranch=============[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004lM	typescript
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git [7mcheckout[27mcheckout
+[?2004lM	typescript
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# git checkout [7mdemoBranch[27mdemoBranch
+[?2004lM	typescript
+Already on 'demoBranch'
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# ls
+[?2004lJenkinsfile  demofile  pom.xml  sonar-project.properties  [0m[01;34msrc[0m  typescript
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# ls -l
+[?2004ltotal 36
+-rw-r--r-- 1 root root   562 Dec 26 16:21 Jenkinsfile
+-rw-r--r-- 1 root root    17 Dec 26 17:02 demofile
+-rw-r--r-- 1 root root  2215 Dec 26 16:21 pom.xml
+-rw-r--r-- 1 root root   283 Dec 26 16:21 sonar-project.properties
+drwxr-xr-x 3 root root  4096 Dec 26 16:21 [0m[01;34msrc[0m
+-rw-r--r-- 1 root root 16384 Dec 26 17:13 typescript
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# ls -l[Kgit checkout demoBranch[K demoBranch[K[K[K[K[K[K[K[K[K[Kmain
+[?2004lerror: Your local changes to the following files would be overwritten by checkout:
+	typescript
+Please commit your changes or stash them before you switch branches.
+Aborting
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# ls -l
+[?2004ltotal 36
+-rw-r--r-- 1 root root   562 Dec 26 16:21 Jenkinsfile
+-rw-r--r-- 1 root root    17 Dec 26 17:02 demofile
+-rw-r--r-- 1 root root  2215 Dec 26 16:21 pom.xml
+-rw-r--r-- 1 root root   283 Dec 26 16:21 sonar-project.properties
+drwxr-xr-x 3 root root  4096 Dec 26 16:21 [0m[01;34msrc[0m
+-rw-r--r-- 1 root root 16384 Dec 26 17:13 typescript
+[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# 
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# 
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# 
+[?2004l[?2004h]0;root@demo-ec2: ~/webapp-projectroot@demo-ec2:~/webapp-project# exit
+[?2004lexit
+
+Script done on 2024-12-26 17:34:51+00:00 [COMMAND_EXIT_CODE="0"]
